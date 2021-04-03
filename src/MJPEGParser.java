@@ -54,8 +54,12 @@ public class MJPEGParser {
             		s="";
             		
             		// in my case the header has this structure but might differ slightly
+            		
             		// --boundarydonotcross
-            		// 
+            		// Content-Type: image/jpeg
+            		// Content-Length: 144848
+            		// X-Timestamp: 0.000000
+            		//         
             		
             		
             		

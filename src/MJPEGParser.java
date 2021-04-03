@@ -16,7 +16,7 @@ public class MJPEGParser {
 	public static void main(String[] args) {
 		
 		
-		MJPEGParser mp = new MJPEGParser("http://192.168.1.4:8080/?action=stream", "username", "password");
+		MJPEGParser mp = new MJPEGParser("http://127.0.0.1:8080/?action=stream", "username", "password");
 	}
 
 	

@@ -8,7 +8,7 @@ http://www.walking-productions.com/notslop/2010/04/20/motion-jpeg-in-flash-and-j
 The code identifies the header then writes jpg data byte by byte  waiting for the header of the next frame. 
 Not all frames are saved due to the time it takes to read and write.
 
-In my case headers had this format
+In my case headers had this format:
 
 --boundarydonotcross  
 Content-Type: image/jpeg  

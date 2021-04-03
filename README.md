@@ -10,7 +10,7 @@ Not all frames are saved due to the time it takes to read and write.
 
 In my case headers had this format
 
---boundarydonotcross
+--boundarydonotcross /r/n
 Content-Type: image/jpeg
 Content-Length: 144848
 X-Timestamp: 0.000000

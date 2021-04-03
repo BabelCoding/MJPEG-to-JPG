@@ -11,8 +11,8 @@ Not all frames are saved due to the time it takes to read and write.
 In my case headers had this format
 
 --boundarydonotcross  
-Content-Type: image/jpeg
-Content-Length: 144848
-X-Timestamp: 0.000000
-
+Content-Type: image/jpeg  
+Content-Length: 144848  
+X-Timestamp: 0.000000  
+  
 There might be more efficient solutions but this works well for taking a snapshot every second or so.
